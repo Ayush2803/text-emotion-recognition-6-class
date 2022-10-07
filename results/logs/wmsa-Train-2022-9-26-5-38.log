@@ -1,0 +1,67 @@
+2022-09-26 05:38:18:INFO:Start running wmsa...
+2022-09-26 05:38:18:INFO:<Storage{'modelname': 'wmsa', 'name': 'Train', 'dataset': 'iemocap', 'test_only': False, 'MAX_Epoch': 20, 'MIN_Epoch': 0, 'num_workers': 0, 'lr_bert': 2e-05, 'lr_other': 5e-05, 'weight_decay_text': 0.001, 'weight_decay_other': 0.001, 'post_text_dropout': 0.0, 'data_dir': 'data/', 'model_save_dir': 'results/models', 'res_save_dir': 'results/results', 'log_dir': None, 'logs_dir': 'results/logs', 'gpu_ids': [0], 'nargs_int_type': None, 'seeds': [0], 'dataPath': '../Datasets/SIMS/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 4, 'language': 'cn', 'KeyEval': 'Loss', 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'early_stop': 4, 'batch_size': 16, 'text_out': 768, 'audio_out': 400, 'video_out': 400, 'post_fusion_dim': 128, 'post_dim': 128, 'output_dim': 4, 'weight_k': 2, 'H': 3.0, 'seed': 0}>
+2022-09-26 05:38:18:INFO:Let's use 1 GPUs!
+2022-09-26 05:38:18:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:18:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 05:38:18:DEBUG:Attempting to acquire lock 140134789823264 on /root/.cache/huggingface/hub/models--roberta-large/blobs/5606f48548d99a9829d10a96cd364b816b02cd21.lock
+2022-09-26 05:38:18:DEBUG:Lock 140134789823264 acquired on /root/.cache/huggingface/hub/models--roberta-large/blobs/5606f48548d99a9829d10a96cd364b816b02cd21.lock
+2022-09-26 05:38:18:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:18:DEBUG:https://huggingface.co:443 "GET /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 898823
+2022-09-26 05:38:18:DEBUG:Attempting to release lock 140134789823264 on /root/.cache/huggingface/hub/models--roberta-large/blobs/5606f48548d99a9829d10a96cd364b816b02cd21.lock
+2022-09-26 05:38:18:DEBUG:Lock 140134789823264 released on /root/.cache/huggingface/hub/models--roberta-large/blobs/5606f48548d99a9829d10a96cd364b816b02cd21.lock
+2022-09-26 05:38:18:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:18:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-09-26 05:38:18:DEBUG:Attempting to acquire lock 140135076074928 on /root/.cache/huggingface/hub/models--roberta-large/blobs/226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2022-09-26 05:38:18:DEBUG:Lock 140135076074928 acquired on /root/.cache/huggingface/hub/models--roberta-large/blobs/226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2022-09-26 05:38:18:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:18:DEBUG:https://huggingface.co:443 "GET /roberta-large/resolve/main/merges.txt HTTP/1.1" 200 456318
+2022-09-26 05:38:18:DEBUG:Attempting to release lock 140135076074928 on /root/.cache/huggingface/hub/models--roberta-large/blobs/226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2022-09-26 05:38:18:DEBUG:Lock 140135076074928 released on /root/.cache/huggingface/hub/models--roberta-large/blobs/226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2022-09-26 05:38:18:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:18:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-09-26 05:38:18:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:18:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+2022-09-26 05:38:18:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:18:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-09-26 05:38:18:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:18:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+2022-09-26 05:38:18:DEBUG:Attempting to acquire lock 140134784824848 on /root/.cache/huggingface/hub/models--roberta-large/blobs/b92478606f827116a06a51500cdf1fccb3b96af1.lock
+2022-09-26 05:38:18:DEBUG:Lock 140134784824848 acquired on /root/.cache/huggingface/hub/models--roberta-large/blobs/b92478606f827116a06a51500cdf1fccb3b96af1.lock
+2022-09-26 05:38:18:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:18:DEBUG:https://huggingface.co:443 "GET /roberta-large/resolve/main/config.json HTTP/1.1" 200 482
+2022-09-26 05:38:18:DEBUG:Attempting to release lock 140134784824848 on /root/.cache/huggingface/hub/models--roberta-large/blobs/b92478606f827116a06a51500cdf1fccb3b96af1.lock
+2022-09-26 05:38:18:DEBUG:Lock 140134784824848 released on /root/.cache/huggingface/hub/models--roberta-large/blobs/b92478606f827116a06a51500cdf1fccb3b96af1.lock
+2022-09-26 05:38:19:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:19:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 05:38:19:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:19:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 05:38:19:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:19:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+2022-09-26 05:38:19:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:19:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-09-26 05:38:19:DEBUG:Attempting to acquire lock 140134779810864 on /root/.cache/huggingface/hub/models--roberta-large/blobs/36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8.lock
+2022-09-26 05:38:19:DEBUG:Lock 140134779810864 acquired on /root/.cache/huggingface/hub/models--roberta-large/blobs/36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8.lock
+2022-09-26 05:38:19:DEBUG:Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2022-09-26 05:38:19:DEBUG:https://cdn-lfs.huggingface.co:443 "GET /roberta-large/36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8?response-content-disposition=attachment%3B%20filename%3D%22pytorch_model.bin%22 HTTP/1.1" 200 1425941629
+2022-09-26 05:38:21:DEBUG:Attempting to release lock 140134779810864 on /root/.cache/huggingface/hub/models--roberta-large/blobs/36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8.lock
+2022-09-26 05:38:22:DEBUG:Attempting to release lock 140134779810864 on /root/.cache/huggingface/hub/models--roberta-large/blobs/36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8.lock
+2022-09-26 05:38:22:DEBUG:Lock 140134779810864 released on /root/.cache/huggingface/hub/models--roberta-large/blobs/36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8.lock
+2022-09-26 05:38:37:INFO:Start running wmsa...
+2022-09-26 05:38:37:INFO:<Storage{'modelname': 'wmsa', 'name': 'Train', 'dataset': 'iemocap', 'test_only': False, 'MAX_Epoch': 20, 'MIN_Epoch': 0, 'num_workers': 0, 'lr_bert': 2e-05, 'lr_other': 5e-05, 'weight_decay_text': 0.001, 'weight_decay_other': 0.001, 'post_text_dropout': 0.0, 'data_dir': 'data/', 'model_save_dir': 'results/models', 'res_save_dir': 'results/results', 'log_dir': None, 'logs_dir': 'results/logs', 'gpu_ids': [0], 'nargs_int_type': None, 'seeds': [0], 'dataPath': '../Datasets/SIMS/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 4, 'language': 'cn', 'KeyEval': 'Loss', 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'early_stop': 4, 'batch_size': 16, 'text_out': 768, 'audio_out': 400, 'video_out': 400, 'post_fusion_dim': 128, 'post_dim': 128, 'output_dim': 4, 'weight_k': 2, 'H': 3.0, 'seed': 0}>
+2022-09-26 05:38:37:INFO:Let's use 1 GPUs!
+2022-09-26 05:38:37:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:37:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 05:38:37:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:37:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 05:38:38:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:38:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 05:38:39:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:39:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+2022-09-26 05:38:39:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 05:38:39:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-09-26 05:38:39:DEBUG:Attempting to acquire lock 140538470655888 on /root/.cache/huggingface/hub/models--roberta-large/blobs/36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8.lock
+2022-09-26 05:38:39:DEBUG:Lock 140538470655888 acquired on /root/.cache/huggingface/hub/models--roberta-large/blobs/36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8.lock
+2022-09-26 05:38:39:DEBUG:Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2022-09-26 05:38:39:DEBUG:https://cdn-lfs.huggingface.co:443 "GET /roberta-large/36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8?response-content-disposition=attachment%3B%20filename%3D%22pytorch_model.bin%22 HTTP/1.1" 200 1425941629
+2022-09-26 05:39:00:DEBUG:Attempting to release lock 140538470655888 on /root/.cache/huggingface/hub/models--roberta-large/blobs/36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8.lock
+2022-09-26 05:39:00:DEBUG:Lock 140538470655888 released on /root/.cache/huggingface/hub/models--roberta-large/blobs/36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8.lock

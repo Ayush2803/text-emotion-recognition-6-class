@@ -1,0 +1,105 @@
+2022-09-26 13:07:04:INFO:Start running wmsa...
+2022-09-26 13:07:04:INFO:<Storage{'modelname': 'wmsa', 'name': 'Train', 'dataset': 'iemocap', 'test_only': False, 'MAX_Epoch': 20, 'MIN_Epoch': 0, 'num_workers': 0, 'lr_bert': 2e-05, 'lr_other': 5e-05, 'weight_decay_text': 0.001, 'weight_decay_other': 0.001, 'post_text_dropout': 0.0, 'data_dir': 'data/', 'model_save_dir': 'results/models', 'res_save_dir': 'results/results', 'log_dir': None, 'logs_dir': 'results/logs', 'gpu_ids': [0], 'nargs_int_type': None, 'seeds': [0], 'dataPath': '../Datasets/SIMS/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 6, 'language': 'cn', 'KeyEval': 'Loss', 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'early_stop': 4, 'batch_size': 16, 'text_out': 1024, 'post_fusion_dim': 128, 'post_dim': 128, 'output_dim': 6, 'weight_k': 2, 'H': 3.0, 'seed': 0}>
+2022-09-26 13:07:04:INFO:Let's use 1 GPUs!
+2022-09-26 13:07:04:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 13:07:04:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 13:07:04:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 13:07:05:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 13:07:05:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 13:07:05:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 13:07:05:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 13:07:05:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+2022-09-26 13:07:17:INFO:The model has 360166814 trainable parameters
+2022-09-26 13:07:17:INFO:Start training...
+2022-09-26 13:07:47:INFO:Start running wmsa...
+2022-09-26 13:07:47:INFO:<Storage{'modelname': 'wmsa', 'name': 'Train', 'dataset': 'iemocap', 'test_only': False, 'MAX_Epoch': 20, 'MIN_Epoch': 0, 'num_workers': 0, 'lr_bert': 2e-05, 'lr_other': 5e-05, 'weight_decay_text': 0.001, 'weight_decay_other': 0.001, 'post_text_dropout': 0.0, 'data_dir': 'data/', 'model_save_dir': 'results/models', 'res_save_dir': 'results/results', 'log_dir': None, 'logs_dir': 'results/logs', 'gpu_ids': [0], 'nargs_int_type': None, 'seeds': [0], 'dataPath': '../Datasets/SIMS/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 6, 'language': 'cn', 'KeyEval': 'Loss', 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'early_stop': 4, 'batch_size': 16, 'text_out': 1024, 'post_fusion_dim': 128, 'post_dim': 128, 'output_dim': 6, 'weight_k': 2, 'H': 3.0, 'seed': 0}>
+2022-09-26 13:07:47:INFO:Let's use 1 GPUs!
+2022-09-26 13:07:47:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 13:07:47:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 13:07:47:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 13:07:47:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 13:07:47:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 13:07:48:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-26 13:07:48:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-26 13:07:48:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+2022-09-26 13:07:56:INFO:The model has 360165790 trainable parameters
+2022-09-26 13:07:56:INFO:Start training...
+2022-09-26 13:10:59:INFO:TRAIN-(False) (1/1/1)>> loss: 1.7903 
+2022-09-26 13:10:59:INFO:Text ER: >>  wa_acc: 0.2188  ua_acc: 0.1611  f1: 0.1106 
+2022-09-26 13:11:13:INFO:VAL-(False) >> loss: 1.7580 
+2022-09-26 13:11:13:INFO:Text ER: >>  wa_acc: 0.1812  ua_acc: 0.1667  f1: 0.0511 
+2022-09-26 13:14:28:INFO:TRAIN-(False) (1/2/1)>> loss: 1.7825 
+2022-09-26 13:14:28:INFO:Text ER: >>  wa_acc: 0.1896  ua_acc: 0.1578  f1: 0.1162 
+2022-09-26 13:14:42:INFO:VAL-(False) >> loss: 1.7574 
+2022-09-26 13:14:42:INFO:Text ER: >>  wa_acc: 0.1812  ua_acc: 0.1667  f1: 0.0511 
+2022-09-26 13:17:57:INFO:TRAIN-(False) (1/3/1)>> loss: 1.7809 
+2022-09-26 13:17:57:INFO:Text ER: >>  wa_acc: 0.2076  ua_acc: 0.1654  f1: 0.1247 
+2022-09-26 13:18:11:INFO:VAL-(False) >> loss: 1.7530 
+2022-09-26 13:18:11:INFO:Text ER: >>  wa_acc: 0.1859  ua_acc: 0.1679  f1: 0.0589 
+2022-09-26 13:21:25:INFO:TRAIN-(False) (1/4/1)>> loss: 1.7769 
+2022-09-26 13:21:25:INFO:Text ER: >>  wa_acc: 0.2045  ua_acc: 0.1586  f1: 0.1206 
+2022-09-26 13:21:40:INFO:VAL-(False) >> loss: 1.7438 
+2022-09-26 13:21:40:INFO:Text ER: >>  wa_acc: 0.2664  ua_acc: 0.1990  f1: 0.1200 
+2022-09-26 13:24:54:INFO:TRAIN-(False) (1/5/1)>> loss: 1.7640 
+2022-09-26 13:24:54:INFO:Text ER: >>  wa_acc: 0.2345  ua_acc: 0.1725  f1: 0.1284 
+2022-09-26 13:25:09:INFO:VAL-(False) >> loss: 1.6939 
+2022-09-26 13:25:09:INFO:Text ER: >>  wa_acc: 0.3023  ua_acc: 0.2102  f1: 0.1362 
+2022-09-26 13:28:23:INFO:TRAIN-(False) (1/6/1)>> loss: 1.6972 
+2022-09-26 13:28:23:INFO:Text ER: >>  wa_acc: 0.2896  ua_acc: 0.2346  f1: 0.2232 
+2022-09-26 13:28:37:INFO:VAL-(False) >> loss: 1.5620 
+2022-09-26 13:28:37:INFO:Text ER: >>  wa_acc: 0.4359  ua_acc: 0.3838  f1: 0.3165 
+2022-09-26 13:31:52:INFO:TRAIN-(False) (1/7/1)>> loss: 1.5534 
+2022-09-26 13:31:53:INFO:Text ER: >>  wa_acc: 0.4113  ua_acc: 0.3882  f1: 0.3459 
+2022-09-26 13:32:07:INFO:VAL-(False) >> loss: 1.4218 
+2022-09-26 13:32:07:INFO:Text ER: >>  wa_acc: 0.4695  ua_acc: 0.4449  f1: 0.3797 
+2022-09-26 13:35:21:INFO:TRAIN-(False) (1/8/1)>> loss: 1.3975 
+2022-09-26 13:35:21:INFO:Text ER: >>  wa_acc: 0.4715  ua_acc: 0.4601  f1: 0.4081 
+2022-09-26 13:35:36:INFO:VAL-(False) >> loss: 1.3278 
+2022-09-26 13:35:36:INFO:Text ER: >>  wa_acc: 0.4828  ua_acc: 0.4794  f1: 0.4076 
+2022-09-26 13:38:50:INFO:TRAIN-(False) (1/9/1)>> loss: 1.2957 
+2022-09-26 13:38:50:INFO:Text ER: >>  wa_acc: 0.5164  ua_acc: 0.5061  f1: 0.4597 
+2022-09-26 13:39:05:INFO:VAL-(False) >> loss: 1.2675 
+2022-09-26 13:39:05:INFO:Text ER: >>  wa_acc: 0.5164  ua_acc: 0.5121  f1: 0.4408 
+2022-09-26 13:42:20:INFO:TRAIN-(False) (1/10/1)>> loss: 1.2117 
+2022-09-26 13:42:20:INFO:Text ER: >>  wa_acc: 0.5484  ua_acc: 0.5392  f1: 0.5012 
+2022-09-26 13:42:35:INFO:VAL-(False) >> loss: 1.2399 
+2022-09-26 13:42:35:INFO:Text ER: >>  wa_acc: 0.5078  ua_acc: 0.5090  f1: 0.4387 
+2022-09-26 13:45:50:INFO:TRAIN-(False) (1/11/1)>> loss: 1.1595 
+2022-09-26 13:45:50:INFO:Text ER: >>  wa_acc: 0.5682  ua_acc: 0.5591  f1: 0.5305 
+2022-09-26 13:46:04:INFO:VAL-(False) >> loss: 1.2398 
+2022-09-26 13:46:04:INFO:Text ER: >>  wa_acc: 0.5047  ua_acc: 0.5120  f1: 0.4377 
+2022-09-26 13:49:18:INFO:TRAIN-(False) (1/12/1)>> loss: 1.0985 
+2022-09-26 13:49:19:INFO:Text ER: >>  wa_acc: 0.5958  ua_acc: 0.5906  f1: 0.5637 
+2022-09-26 13:49:33:INFO:VAL-(False) >> loss: 1.1977 
+2022-09-26 13:49:33:INFO:Text ER: >>  wa_acc: 0.5437  ua_acc: 0.5369  f1: 0.4814 
+2022-09-26 13:52:47:INFO:TRAIN-(False) (1/13/1)>> loss: 1.0478 
+2022-09-26 13:52:47:INFO:Text ER: >>  wa_acc: 0.6267  ua_acc: 0.6244  f1: 0.6051 
+2022-09-26 13:53:01:INFO:VAL-(False) >> loss: 1.2494 
+2022-09-26 13:53:01:INFO:Text ER: >>  wa_acc: 0.5125  ua_acc: 0.5155  f1: 0.4505 
+2022-09-26 13:56:09:INFO:TRAIN-(False) (2/14/1)>> loss: 1.0052 
+2022-09-26 13:56:09:INFO:Text ER: >>  wa_acc: 0.6504  ua_acc: 0.6476  f1: 0.6332 
+2022-09-26 13:56:23:INFO:VAL-(False) >> loss: 1.1864 
+2022-09-26 13:56:23:INFO:Text ER: >>  wa_acc: 0.5492  ua_acc: 0.5264  f1: 0.4797 
+2022-09-26 13:59:38:INFO:TRAIN-(False) (1/15/1)>> loss: 0.9623 
+2022-09-26 13:59:39:INFO:Text ER: >>  wa_acc: 0.6785  ua_acc: 0.6800  f1: 0.6705 
+2022-09-26 13:59:53:INFO:VAL-(False) >> loss: 1.1784 
+2022-09-26 13:59:53:INFO:Text ER: >>  wa_acc: 0.5609  ua_acc: 0.5331  f1: 0.4928 
+2022-09-26 14:03:07:INFO:TRAIN-(False) (1/16/1)>> loss: 0.9253 
+2022-09-26 14:03:08:INFO:Text ER: >>  wa_acc: 0.6995  ua_acc: 0.7004  f1: 0.6910 
+2022-09-26 14:03:22:INFO:VAL-(False) >> loss: 1.1928 
+2022-09-26 14:03:22:INFO:Text ER: >>  wa_acc: 0.5437  ua_acc: 0.5254  f1: 0.4843 
+2022-09-26 14:06:30:INFO:TRAIN-(False) (2/17/1)>> loss: 0.8830 
+2022-09-26 14:06:30:INFO:Text ER: >>  wa_acc: 0.7215  ua_acc: 0.7246  f1: 0.7165 
+2022-09-26 14:06:44:INFO:VAL-(False) >> loss: 1.2130 
+2022-09-26 14:06:44:INFO:Text ER: >>  wa_acc: 0.5328  ua_acc: 0.5106  f1: 0.4800 
+2022-09-26 14:09:52:INFO:TRAIN-(False) (3/18/1)>> loss: 0.8513 
+2022-09-26 14:09:52:INFO:Text ER: >>  wa_acc: 0.7341  ua_acc: 0.7413  f1: 0.7313 
+2022-09-26 14:10:06:INFO:VAL-(False) >> loss: 1.2091 
+2022-09-26 14:10:06:INFO:Text ER: >>  wa_acc: 0.5508  ua_acc: 0.5236  f1: 0.4868 
+2022-09-26 14:13:14:INFO:TRAIN-(False) (4/19/1)>> loss: 0.8151 
+2022-09-26 14:13:14:INFO:Text ER: >>  wa_acc: 0.7611  ua_acc: 0.7687  f1: 0.7592 
+2022-09-26 14:13:28:INFO:VAL-(False) >> loss: 1.2414 
+2022-09-26 14:13:28:INFO:Text ER: >>  wa_acc: 0.5570  ua_acc: 0.5030  f1: 0.4879 
+2022-09-26 14:13:46:INFO:TEST-(False) >> loss: 1.2300 
+2022-09-26 14:13:46:INFO:Text ER: >>  wa_acc: 0.5419  ua_acc: 0.5141  f1: 0.4780 
+2022-09-26 14:13:46:INFO:Results are added to results/results/wmsa-Train-2022-9-26-13-7.csv...

@@ -1,0 +1,19 @@
+2022-09-25 17:53:16:INFO:Start running wmsa...
+2022-09-25 17:53:16:INFO:<Storage{'modelname': 'wmsa', 'name': 'Train', 'dataset': 'iemocap', 'test_only': False, 'MAX_Epoch': 20, 'MIN_Epoch': 0, 'num_workers': 0, 'lr_bert': 2e-05, 'lr_other': 5e-05, 'weight_decay_text': 0.001, 'weight_decay_other': 0.001, 'post_text_dropout': 0.0, 'data_dir': 'data/', 'model_save_dir': 'results/models', 'res_save_dir': 'results/results', 'log_dir': None, 'logs_dir': 'results/logs', 'gpu_ids': [0], 'nargs_int_type': None, 'seeds': [0], 'dataPath': '../Datasets/SIMS/unaligned_39.pkl', 'seq_lens': (39, 400, 55), 'feature_dims': (768, 33, 709), 'train_samples': 1368, 'num_classes': 5, 'language': 'cn', 'KeyEval': 'Loss', 'need_normalized': False, 'use_bert': True, 'use_finetune': True, 'early_stop': 4, 'batch_size': 16, 'text_out': 768, 'audio_out': 400, 'video_out': 400, 'post_fusion_dim': 128, 'post_dim': 128, 'output_dim': 5, 'weight_k': 2, 'H': 3.0, 'seed': 0}>
+2022-09-25 17:53:16:INFO:Let's use 1 GPUs!
+2022-09-25 17:53:16:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-25 17:53:17:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-25 17:53:17:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-25 17:53:17:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-25 17:53:17:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-25 17:53:17:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-09-25 17:53:17:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2022-09-25 17:53:17:DEBUG:https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+2022-09-25 17:53:31:INFO:The model has 360149253 trainable parameters
+2022-09-25 17:53:31:INFO:Start training...
+2022-09-25 17:56:33:INFO:TRAIN-(False) (1/1/1)>> loss: 1.6157 
+2022-09-25 17:56:33:INFO:Text ER: >>  wa_acc: 0.2194  ua_acc: 0.1911  f1: 0.1504 
+2022-09-25 17:56:46:INFO:VAL-(False) >> loss: 1.5980 
+2022-09-25 17:56:46:INFO:Text ER: >>  wa_acc: 0.2070  ua_acc: 0.2000  f1: 0.0686 
+2022-09-25 17:59:59:INFO:TRAIN-(False) (1/2/1)>> loss: 1.6123 
+2022-09-25 17:59:59:INFO:Text ER: >>  wa_acc: 0.2003  ua_acc: 0.1710  f1: 0.1331 
